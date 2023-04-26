@@ -13,8 +13,7 @@ DATABASES = {
         "NAME": "BiggerOnTheInside",
         "HOST": "localhost",
         "USER": "root",
-        "PASSWORD": "MyPassword"
+        "PASSWORD": "hayhay12!"
     }
-
 }
 
