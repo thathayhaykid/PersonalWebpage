@@ -16,7 +16,7 @@ else:
     ]
 
 if DEBUG is True:
-    SECRET_KEY = SECRET_KEY = "django-insecure-rzqpltar+2ki1f2n=4oxwranltflpzi8x#5n$u)fo6f^7q)a1r"
+    SECRET_KEY = "django-insecure-rzqpltar+2ki1f2n=4oxwranltflpzi8x#5n$u)fo6f^7q)a1r"
 else:
     SECRET_KEY = os.environ['HAYWEBSITE_SECRET_KEY']
 
