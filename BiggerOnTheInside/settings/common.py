@@ -36,8 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "AboutMe",
-    "debug_toolbar",
-    "storefront"
+    "debug_toolbar"
 ]
 
 MIDDLEWARE = [
