@@ -4,7 +4,7 @@ from .common import *
 import dj_database_url
 import os
 
-DEBUG = False
+DEBUG = True
 
 if DEBUG is True:
     ALLOWED_HOSTS = [
