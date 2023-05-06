@@ -8,7 +8,7 @@ DEBUG = True
 
 if DEBUG is True:
     ALLOWED_HOSTS = [
-    '127.0.0.1:8000'
+    '127.0.0.1'
     ]
 else:
     ALLOWED_HOSTS = [
