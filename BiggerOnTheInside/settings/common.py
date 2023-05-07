@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "AboutMe",
-    "debug_toolbar"
+    "debug_toolbar",
+    "SimulationsLand"
 ]
 
 MIDDLEWARE = [

@@ -22,11 +22,17 @@ else:
 
 if DEBUG is True:
     DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "BiggerOnTheInside",
-        "HOST": "localhost",
-        "USER": "root",
-        "PASSWORD": "hayhay12!" }}
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase', # This is where you put the name of the db file. 
+                 # If one doesn't exist, it will be created at migration time.
+    }
+}
 else:
         DATABASES = { "default": dj_database_url.config() }
+#"default": {
+    #    "ENGINE": "django.db.backends.mysql",
+    #    "NAME": "BiggerOnTheInside",
+    #    "HOST": "localhost",
+    #    "USER": "root",
+    #    "PASSWORD": "hayhay12!" }}

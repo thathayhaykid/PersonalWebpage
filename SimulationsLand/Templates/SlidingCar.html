@@ -1,19 +1,13 @@
-{% load static %}
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="{% static 'core/styles.css' %}">
-    </head>
-    <body>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
 
-        <div class="homepage">
-            {% if name %}
-            <h1>Hello {{ name }}</h1>
-    
-            {% else %}
-            <h1>Hello World</h1>
-    
-            {% endif %}
-        </div>
-    </body>
-
+  </head>
+  <body>
+    <script src="vehicle.js"></script>
+    <script src="sketch.js"></script>
+  </body>
 </html>
