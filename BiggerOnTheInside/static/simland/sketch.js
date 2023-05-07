@@ -8,7 +8,8 @@
 let vehicle;
 
 function setup() {
-  createCanvas(400, 400);
+  let MyCanvas = createCanvas(400, 400);
+  MyCanvas.parent("p5canvas")
   vehicle = new Vehicle(100, 100);
 }
 
