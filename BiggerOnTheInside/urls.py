@@ -28,3 +28,5 @@ urlpatterns = [
     path('simulationsland/', include('SimulationsLand.urls'))
 ]
 
+
+urlpatterns+= static(settings.common.STATIC_URL, document_root=setttings.common.STATIC_ROOT)
