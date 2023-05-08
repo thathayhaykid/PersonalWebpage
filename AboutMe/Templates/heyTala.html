@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'simland/style.css' %}">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h1> Welcome! This is an example from the coding train! Yay!</h1>
+    <div id="p5canvas"></div>
+    <script src="{% static 'simland/vehicle.js' %}"></script>
+    <script src="{% static 'simland/sketch.js' %}"></script>
+  </body>
+</html>
