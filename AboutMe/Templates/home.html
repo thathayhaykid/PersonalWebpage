@@ -1,73 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    {% load static %}
+
     <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #4dcdff;
-        }
-        
-        .navbar {
-            background-color: #724dff;
-            padding: 10px 20px;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .navbar .title {
-            color: white;
-            font-weight: bold;
-            font-size: 24px;
-            margin-right: auto;
-            text-decoration: none;
-        }
-        
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin-left: 10px;
-        }
-        
-        .content {
-            max-width: 800px;
-            margin: 100px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            color: #ff4dd2;
-        }
-        
-        h1 {
-            text-align: center;
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-        
-        p {
-            text-align: center;
-            font-size: 20px;
-        }
-        
-        .emphasis {
-            font-style: italic;
-            font-weight: bold;
-            margin-bottom: 5px;
-            text-align: center;
-        }
-        
-        h1, p, ul {
-            text-align: center;
-        }
-        
-        p, ul {
-            text-align: justify;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'core/aboutme/styles.css' %}">
 </head>
 <body>
     <div class="navbar">
