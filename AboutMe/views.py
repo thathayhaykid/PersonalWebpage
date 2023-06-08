@@ -8,4 +8,7 @@ def say_hello(request):
 def heytala(request):
     return render(request,'HeyTala.html')
 
+def home(request):
+    return render(request, 'home.html')
+
 # Create your views here.

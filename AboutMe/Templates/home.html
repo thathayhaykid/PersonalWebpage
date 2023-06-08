@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #4dcdff;
+        }
+        
+        .navbar {
+            background-color: #724dff;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .navbar .title {
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            margin-right: auto;
+            text-decoration: none;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #ff4dd2;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .emphasis {
+            font-style: italic;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        
+        h1, p, ul {
+            text-align: center;
+        }
+        
+        p, ul {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="title">Haythem Mansour</a>
+        <div class="navbar-links">
+            <a href="#about">About me</a>
+            <a href="#education">Education</a>
+            <a href="#career">Career</a>
+        </div>
+    </div>
+    
+    <div class="content">
+        <h1 id="about">Haythem Mansour</h1>
+        <p class="emphasis">Mechanical Engineering, BS</p>
+        
+        <p>My name's Haythem, and in 2022 I graduated with my Bachelor of Science in Mechanical Engineering from the University of Colorado Denver. During my time at CU Denver, I got the opportunity to learn so much, through my courses, my friendships, my work, and the horrors of COVID19.</p>
+        
+        <p>My classes at CU Denver equipped me with many tools to understand more about how the world works, whether it's about how heat transfers through buildings, pipes, and fins, or if it's about calculating the forces that members in a bridge put on another. There was a whole lot that I learned back in school, and projects involved for each. Feel free to take a look at the classes, key projects, key notes, and skills I learned <a href="#">here</a>.</p>
+        
+        <p>After graduating, I took an internship with a place that a family member worked at, and chose to continue further with a full-time job as a Designer Technician at H2I Group. At H2I Group, I got to continue to improve upon my skills in 3D modeling and drafting documents that will be used by manufacturers, project managers, installers alike. By producing these drawings, I've gotten to get a greater understanding of what everyone “down the line” needs to have on the drawings to be able to do their jobs effectively as well. To see more about my experience in my careers, take a look <a href="#">here</a>.</p>
+        
+        <p>There's also myself and the things I'm interested in outside of School and Work. Growing up, I was always interested in the way things worked. Whether it was an old junk computer my dad had laying around or how people built mods on Minecraft (my dad had once even brought home a 4” thick book on how to code in Java… I was 12!). One of my overarching lifelong passions has been robotics.</p>
+        
+        <p>Other things I'd like to write about in this section:</p>
+        <ul>
+            <li>Playing Modded Minecraft, putting together big systems</li>
+            <li>Asimo</li>
+            <li>STEM High School</li>
+            <li>The love and excitement for life itself</li>
+        </ul>
+        
+        <p>Yay! Worked on my website! more to come</p>
+    </div>
+</body>
+</html>
